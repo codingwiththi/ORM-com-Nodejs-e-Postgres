@@ -1,0 +1,32 @@
+{
+  "name": "orm-com-nodejs-e-postgres",
+  "version": "1.0.0",
+  "description": "Atividades do Curso da Alura ORM com Nodejs",
+  "main": "./api/index.js",
+  "scripts": {
+    "start": "nodemon ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomr8/ORM-com-Nodejs-e-Postgres.git"
+  },
+  "author": "Thiago Moreira Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomr8/ORM-com-Nodejs-e-Postgres/issues"
+  },
+  "homepage": "https://github.com/thiagomr8/ORM-com-Nodejs-e-Postgres#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.1",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
